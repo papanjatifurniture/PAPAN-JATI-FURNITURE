@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak - Papan Jati Furniture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-left">
+        <img src="images/logo.png" class="logo-img">
+        <span class="logo-text">Papan Jati Furniture</span>
+    </div>
+
+    <!-- MENU DESKTOP -->
+    <div class="menu desktop-menu">
+        <a href="index.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+<div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+<!-- MENU MOBILE -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="kontak.html">Kontak</a>
+</div>
+
+
+<!-- HERO KONTAK -->
+<header class="hero-produk">
+    <h1>Hubungi Kami</h1>
+    <p>Siap melayani kebutuhan furniture & kayu jati terbaik</p>
+</header>
+
+<!-- KONTAK -->
+<section class="kontak">
+    <div class="kontak-grid">
+
+        <!-- INFO -->
+        <div class="kontak-info">
+            <h2>Papan Jati Furniture</h2>
+            <p>
+                Melayani penjualan furniture & bahan kayu jati berkualitas.
+                Hubungi kami atau datang langsung ke lokasi.
+            </p>
+
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> WhatsApp</li>
+                <li><i class="fa-solid fa-location-dot"></i> Pekalongan</li>
+                <li><i class="fa-solid fa-clock"></i> Buka Sabtu-Kamis</li>
+            </ul>
+
+            <a href="https://wa.me/6281234567890" target="_blank" class="btn-wa">
+                <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
+            </a>
+        </div>
+
+        <!-- MAPS -->
+        <div class="kontak-maps">
+            <iframe
+                src="https://www.google.com/maps?q=PAPAN+JATI+FURNITURE&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="sosmed">
+        <a href="https://wa.me/6281234567890" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/papanjati.furniture" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/189pW81LdQ/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@papan.jati.furnit" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </a>
+    </div>
+    <p>© 2026 Papan Jati Furniture</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
